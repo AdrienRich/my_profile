@@ -1,0 +1,108 @@
+body {
+	background-color: #dfe2fe;
+    color: rgb(30, 30, 30);  
+    font-family: 'Lora', serif;
+    font-size: 17px;
+}
+h1, h2 {
+    font-family: 'Roboto slab', serif;
+}
+h1 {
+    color: #6560f0;
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: 15px;
+}
+h2 {
+	color: #8e98f5;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+a {
+	font-family: helvetica;
+    color: black;
+    font-size: 16px;
+}
+a:hover {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #7c4789;
+}
+
+
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+@media (max-width: 900px) {
+	.container {
+		width: 700px
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px
+	}
+}
+@media (max-width: 400px) {
+	.container {
+		width: 300px
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.btn-blue {
+	background-color: #509aaf;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+.icon1 {
+	width: 35px;
+	margin: 40px auto;
+}
+.icon1:hover {
+	width: 40px
+}
+
+
+
+
+
+
+

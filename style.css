@@ -23,11 +23,13 @@ a {
 	font-family: helvetica;
     color: black;
     font-size: 16px;
+    text-decoration: none;
 }
 a:hover {
 	font-family: helvetica;
 	font-size: 16px;
 	color: #7c4789;
+	text-decoration: none;
 }
 
 
